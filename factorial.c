@@ -14,3 +14,11 @@ unsigned long long factorial(int n) {
     return result;
 }
 
+// Función para calcular el valor absoluto de un número
+double valor_absoluto(double num) {
+    if (num < 0) {
+        return -num;
+    }
+    return num;
+}
+
