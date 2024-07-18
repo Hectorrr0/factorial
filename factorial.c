@@ -22,3 +22,11 @@ double valor_absoluto(double num) {
     return num;
 }
 
+// Función para calcular el promedio de una cantidad variable de elementos
+double calcular_promedio(int cantidad, double elementos[]) {
+    double suma = 0.0;
+    for (int i = 0; i < cantidad; i++) {
+        suma += elementos[i];
+    }
+    return suma / cantidad;
+}
